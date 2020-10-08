@@ -9,7 +9,7 @@
         "trix",
         "Octane"
     ],
-    "repository": "",
+    "repository": "https://github.com/mwalper/ember-trix",
     "license": "MIT",
     "author": "Martin Walper",
     "directories": {
