@@ -1,6 +1,8 @@
 ember-trix
 ==============================================================================
 
+This is still in development. Not for public use! 
+
 Ember Trix wraps the [Trix Editor](https://github.com/basecamp/trix) in a 
 Glimmer Component for use in an Ember Octane Project.
 
