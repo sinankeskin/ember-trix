@@ -1,8 +1,11 @@
 ember-trix
 ==============================================================================
 
-[Short description of the addon.]
+Ember Trix wraps the [Trix Editor](https://github.com/basecamp/trix) in a 
+Glimmer Component for use in an Ember Octane Project.
 
+This Addon is a rewrite of [ember-trix-editor](https://github.com/lynnetye/ember-trix-editor)
+featuring Ember Octane style Glimmer Components and modifiers.
 
 Compatibility
 ------------------------------------------------------------------------------
