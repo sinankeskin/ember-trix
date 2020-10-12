@@ -1,7 +1,7 @@
 import { modifier } from 'ember-modifier';
 
-export default modifier((element, [handler]/*, hash*/) =>
-{
+export default modifier((element, [handler]/*, hash*/) => {
+	// register all events
 	element.addEventListener('trix-attachment-add', handler);
 	element.addEventListener('trix-attachment-remove', handler);
 	element.addEventListener('trix-blur', handler);
@@ -12,6 +12,7 @@ export default modifier((element, [handler]/*, hash*/) =>
 	element.addEventListener('trix-selection-change', handler);
 
 	return () => {
+		// unregister all events
 		element.removeEventListener('trix-attachment-add', handler);
 		element.removeEventListener('trix-attachment-remove', handler);
 		element.removeEventListener('trix-blur', handler);

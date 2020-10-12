@@ -4,7 +4,7 @@
 
 * `git clone <repository-url>`
 * `cd ember-trix`
-* `npm install`
+* `npm install` or `yarn install`
 
 ## Linting
 

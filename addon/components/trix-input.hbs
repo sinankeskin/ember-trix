@@ -1,0 +1,13 @@
+{{! input for include in form }}
+<input
+		id={{@id}}
+		type="hidden"
+		name="{{concat 'trix-editor-input-' @id}}"
+		value={{this.value}}
+/>
+{{! the editor }}
+<trix-editor
+		{{trix-listener this.trixEventHandler}}
+		input={{@id}}
+		...attributes
+/>
