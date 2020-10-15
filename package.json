@@ -1,6 +1,6 @@
 {
 	"name": "ember-trix",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Ember Trix wraps the Trix Editor in a Glimmer Component for use in an Ember Octane Project",
 	"keywords": [
 		"ember-addon",

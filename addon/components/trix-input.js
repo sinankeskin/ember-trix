@@ -5,10 +5,12 @@ import { typeOf } from '@ember/utils';
 
 export default class TrixInputComponent extends Component
 {
-
 	get value() { return this.args.value ?? ''; }
 	/**
 	 * handle all events from trix which are registered in the modifier
+	 * and push them up.
+	 * Trigger the onChange action on trix-change with the content of the editor
+	 *
 	 * @param event
 	 */
 	@action trixEventHandler(event)
@@ -22,7 +24,7 @@ export default class TrixInputComponent extends Component
 		// trigger convenient onChange action
 		if (eName === 'trixChange' && typeOf(this.args.onChange) === 'function')
 		{
-			this.args.onChange(event.target.innerHTML);
+			this.args.onChange(event.target.value);
 		}
 
 	}

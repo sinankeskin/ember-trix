@@ -83,10 +83,11 @@ The the following Events are available:
 * `trix-attachment-add`
 * `trix-attachment-remove`
 * `trix-blur`
+* `trix-focus`
 * `trix-change`
 * `trix-file-accept`
-* `trix-focus`
 * `trix-initialize`
+* `trix-before-initialize`
 * `trix-selection-change`
 
 All of them will pass up a JavaScript `event` from which the editor property can be extracted.
